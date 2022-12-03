@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family= Open + Sans:wght@300;400;500;600 & display=swap');
+
+:root{
+    --border-image:#B8BFC6;
+}
+
+body{
+    background-color: #e2e2e2;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    height: 100%;
+}
+
+/* ===================  Inicio da header ================= */
+.perfil-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.perfil-photo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid var(--border-image);
+}
+
+.perfil-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #002e4a;
+    text-shadow: 1px 1px 2px black;
+}
+
+.perfil-name h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.perfil-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #002e4a;
+}
